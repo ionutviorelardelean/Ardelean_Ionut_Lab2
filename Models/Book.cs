@@ -21,7 +21,6 @@ namespace Ardelean_Ionut_Lab2.Models
         public int? AuthorID { get; set; }
         public Author? Author { get; set; } //navigation property
 
-        [Display(Name = "Categories")]
         public ICollection<BookCategory>? BookCategories { get; set; }
 
 
