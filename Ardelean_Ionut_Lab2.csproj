@@ -20,4 +20,11 @@
     <Folder Include="Pages\Publishers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Pages\Index.cshtml.cs" />
+    <Content Remove="Pages\Index.cshtml" />
+    <None Include="Pages\Index.cshtml" />
+    <None Include="Pages\Index.cshtml.cs" />
+  </ItemGroup>
+
 </Project>
