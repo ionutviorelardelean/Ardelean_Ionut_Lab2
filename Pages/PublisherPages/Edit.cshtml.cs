@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Ardelean_Ionut_Lab2.Models;
 
-namespace Ardelean_Ionut_Lab2.Pages.Publishers;
+namespace Ardelean_Ionut_Lab2.Pages.PublisherPages;
 
 public class EditModel : PageModel
 {

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
+namespace Ardelean_Ionut_Lab2.Data;
+
 public class Ardelean_Ionut_Lab2Context(DbContextOptions<Ardelean_Ionut_Lab2Context> options) : DbContext(options)
 {
     public DbSet<Ardelean_Ionut_Lab2.Models.Book> Book { get; set; } = default!;

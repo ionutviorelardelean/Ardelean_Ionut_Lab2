@@ -17,7 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Publishers\" />
+    <Folder Include="Pages\PublisherPages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Ardelean_Ionut_Lab2.Data" />
   </ItemGroup>
 
   <ItemGroup>
